@@ -1,0 +1,30 @@
+[
+    {
+        "author": "Robert Frost",
+        "title": "Nothing Gold Can Stay",
+        "text": "Nature's first green is gold,\nHer hardest hue to hold.\nHer early leaf's a flower;\nBut only so an hour.\nThen leaf subsides to leaf.\nSo Eden sank to grief,\nSo dawn goes down to day.\nNothing gold can stay.",
+        "sentiment": "sad",
+        "category": "nature"
+    },
+    {
+        "author": "Langston Hughes",
+        "title": "So Tired Blues",
+        "text": "With the sun in my hand\nGonna throw the sun\nWay across the land-\nCause I'm tired,\nTired as I can be",
+        "sentiment": "sad",
+        "category": "self"
+    },
+    {
+        "author": "Sappho",
+        "title": "Love",
+        "text": "Love, like a mountain-wind upon an oak,\nFalling upon me, shakes me leaf and bough.",
+        "sentiment": "happy",
+        "category": "love"
+    },
+    {
+        "author": "al-Khansa",
+        "title": "Tears",
+        "text": "Tears, ere thy death, for many a one I shed,\nBut thine are all my tears since thou art dead.\nTo comforters I lend my ear apart,\nWhile pain sits ever closer to my heart",
+        "sentiment": "sad",
+        "category": "grief"
+    }
+]

@@ -1,10 +1,13 @@
+# steps:
+# ignore main
+# 1. build docker image
+# 2. run unit tests
 name: Docker Image CI
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches-ignore:
+      - 'main'
 
 jobs:
 
@@ -13,6 +16,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag poet:$(date +%s)
+      - uses: actions/checkout@v4
+      - name: Build the Docker image
+      - run: docker build . --file Dockerfile --tag poet:$(date +%s)
+
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: docker image ls
+      - run: docker image ls

@@ -5,5 +5,3 @@ LABEL org.opencontainers.image.description="Poet container image, but better"
 LABEL org.opencontainers.image.licenses=GPL-3.0-or-later
 
 COPY . .
-
-CMD ["python", "-m", "poet", "-p", "poet/poems.json"]

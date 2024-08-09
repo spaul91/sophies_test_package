@@ -17,7 +17,7 @@ jobs:
         run: docker build -t poet .
 
       - name: Run Docker Container
-        run: docker run -d --name test-container poet
+        run: docker run -t -d --name test-container poet
 
       - name: Run unit tests
         run: docker exec test-container python3 -m unittest tests

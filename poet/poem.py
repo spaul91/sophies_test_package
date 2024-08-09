@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-class Poem:
+class Poem():
     """
     Stores poem data, and allows printing in a pretty format for reading poetry
     """

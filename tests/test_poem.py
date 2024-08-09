@@ -12,5 +12,8 @@ class TestPoem(unittest.TestCase):
         poem = Poem(title="A Poem", author="A Poet", text="There once was a man from the Gower", sentiment="goofy", category="limerick") 
         self.assertEqual(poem.title, "A Poem")
 
+    def test_will_fail(self):
+        self.assertEqual(1, 2)
+
 if __name__ == "__main__":
     unittest.main()
